@@ -26,3 +26,10 @@ def create_person_list(people: list) -> list:
             new_obj.husband = Person.people[new_husband]
 
     return list_person
+
+
+people = [
+    {"name": "Ross", "age": 30, "wife": "Rachel"},
+    {"name": "Joey", "age": 29, "wife": None},
+    {"name": "Rachel", "age": 28, "husband": "Ross"}
+]
