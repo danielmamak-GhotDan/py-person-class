@@ -9,6 +9,10 @@ class Person:
 
 
 def create_person_list(people: list) -> list:
+    """
+    Zamienia listę słowników z danymi osób na listę
+    instancji klasy Person.
+    """
     list_person = [Person(person["name"], person["age"]) for person in people]
 
     for person in people:
